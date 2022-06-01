@@ -19,16 +19,15 @@ public class ProductServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         this.productRepository = new ProductRepository();
-        productRepository.insert(new Product("Samsung Galaxy S20 FE", 580));
-        productRepository.insert(new Product("Apple iPhone 11", 730));
-        productRepository.insert(new Product("Apple iPhone 12 mini", 780));
-        productRepository.insert(new Product("Apple iPhone 12", 820));
-        productRepository.insert(new Product("Realme 8", 280));
-        productRepository.insert(new Product("Xiaomi Redmi Note 11", 290));
-        productRepository.insert(new Product("Motorola Moto G60", 290));
-        productRepository.insert(new Product("OnePlus Nord N100", 199));
-        productRepository.insert(new Product("OPPO A53", 210));
-        productRepository.insert(new Product("Nokia G21", 199));
+        productRepository.insert(new Product("Samsung_Galaxy_S20_FE", 580));
+        productRepository.insert(new Product("Apple_iPhone_11", 730));
+        productRepository.insert(new Product("Apple iPhone_12", 820));
+        productRepository.insert(new Product("Realme_8", 280));
+        productRepository.insert(new Product("Xiaomi_Redmi_Note_11", 290));
+        productRepository.insert(new Product("Motorola_Moto_G60", 290));
+        productRepository.insert(new Product("OnePlus_Nord_N100", 199));
+        productRepository.insert(new Product("OPPO_A53", 210));
+        productRepository.insert(new Product("Nokia_G21", 199));
 
     }
 
